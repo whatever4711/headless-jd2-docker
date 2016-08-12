@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 function stopJD2 {
 	PID=$(cat JDownloader.pid)

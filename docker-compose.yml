@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  jd2:
+    build: .
+    restart: always
+    volumes:
+      - ./Settings.json:/opt/JDownloader/cfg/org.jdownloader.api.myjdownloader.MyJDownloaderSettings.json
+      - ./Downloads:/root/Downloads
